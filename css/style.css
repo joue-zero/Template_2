@@ -775,3 +775,42 @@ header nav form button i {
   width: 90%
 }
 /* End Opinion */
+
+/* Start Quote */
+.quote {
+  padding: var(--main-padding) 0;
+  background-image: url(../images/quote.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  height: 300px;
+  text-align: center;
+  color: #FFF;
+  position: relative;
+}
+.quote::before {
+  content: '';
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%
+}
+.quote .container {
+  position: relative;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.quote q {
+  font-size: 35px;
+  display: block;
+  margin-bottom: 30px
+}
+@media (max-width: 767px) {
+  .quote q {
+    font-size: 30px
+  }
+}
+/* End Quote */
