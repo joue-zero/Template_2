@@ -818,6 +818,8 @@ header nav form button i {
 /* Start Pricing */
 .pricing {
   padding-bottom: var(--main-padding);
+  position: relative;
+  margin-bottom: 190px
 }
 .pricing .container {
   display: grid;
@@ -927,4 +929,96 @@ header nav form button i {
   border-radius: 50px;
   cursor: pointer;
 }
+.pricing .contact-us {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  padding-top: 50px;
+  padding-bottom: 50px
+}
+.pricing .contact-us h3 {
+  font-weight: normal;
+  color: #2d2d2d;
+  margin-bottom: 20px
+}
+.pricing .contact-us a {
+  color: #FFF;
+  background-color: var(--main-color);
+  padding: 15px 25px;
+  margin: 30px auto 0;
+  display: block;
+  width: 150px;
+  text-align: center;
+  text-decoration: none;
+}
 /* End Pricing */
+
+/* Start Email */
+.email {
+  padding: 100px 0;
+  background-image: url(../images/email.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50%;
+  /* height: 350px; */
+  text-align: center;
+  color: #fff;
+  position: relative;
+}
+.email::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.email form {
+  width: 500px;
+  margin: 10px auto 50px;
+  max-width: 95%;
+}
+.email form ,
+.email .container {
+  position: relative;
+  z-index: 2;
+}
+.email form > i {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-51%);
+  left: 15px;
+  font-size: 25px;
+}
+.email form input[type="email"] {
+  width: 100%;
+  padding: 10px 5px 10px 50px;
+  border: 1px solid #FFFF;
+  background-color: transparent;
+  color: #2196f3;
+  height: 60px;
+}
+.email form input::placeholder {
+  color: #FFF;
+  font-size: 18px;
+  margin-left: 20px;
+}
+.email form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  background-color: var(--main-color);
+  color: #FFF;
+  border: 1px solid #FFF;
+  border-left-color: transparent;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+.email form input:focus,
+.email form button:focus {
+  outline: 0
+}
+
+/* End Email */
