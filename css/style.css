@@ -397,7 +397,7 @@ header nav form button i {
   font-weight: 900;
   margin-right: 10px;
   position: relative;
-    top: 1px;
+  top: 1px;
 }
 .our-design .cont li:first-child:before {
   content: "\f3fa";
@@ -415,7 +415,7 @@ header nav form button i {
 
 /* Start Portfolio */
 .portfolio .heading-box {
-  margin-bottom: 50px
+  margin-bottom: 50px;
 }
 .portfolio ul {
   display: flex;
@@ -427,56 +427,56 @@ header nav form button i {
   padding: 2px 5px;
   text-align: center;
   margin-right: 10px;
-  cursor: pointer
+  cursor: pointer;
 }
 .portfolio ul li.active {
   width: 50px;
   padding: 5px;
   background-color: #2196f3;
-  color: #FFF
+  color: #fff;
 }
 .portfolio .image-container {
   margin-top: 50px;
   display: grid;
-  row-gap: 2px
+  row-gap: 2px;
 }
 @media (min-width: 768px) {
   .portfolio .image-container {
     grid-template-columns: repeat(auto-fill, minmax(49%, 1fr));
   }
 }
-.portfolio .image-box{
+.portfolio .image-box {
   position: relative;
   overflow: hidden;
 }
 .portfolio .image-box:hover img {
-  transform:  scale(1.1) rotate(3deg);
-  transition: .3s;
+  transform: scale(1.1) rotate(3deg);
+  transition: 0.3s;
 }
-.portfolio .image-box:hover .label{
-  bottom: 0
+.portfolio .image-box:hover .label {
+  bottom: 0;
 }
-.portfolio .image-box img{
-  max-width: 100%
+.portfolio .image-box img {
+  max-width: 100%;
 }
-.portfolio .image-box .label{
+.portfolio .image-box .label {
   position: absolute;
   bottom: -80px;
-  background-color: #FFF;
+  background-color: #fff;
   padding: 15px 10px;
   width: 100%;
-  transition: .3s;
+  transition: 0.3s;
 }
-.portfolio .image-box p{
+.portfolio .image-box p {
   font-size: 18px;
 }
-.portfolio .image-box p.type{
+.portfolio .image-box p.type {
   color: #2196f3;
   margin-top: 10px;
 }
 .portfolio button {
   background-color: #2196f3;
-  color: #FFF;
+  color: #fff;
   padding: 10px 25px;
   text-transform: uppercase;
   border: none;
@@ -510,22 +510,22 @@ header nav form button i {
   background-color: rgb(15 116 143 / 70%);
   text-align: center;
   padding: 40px;
-  color: #FFF
+  color: #fff;
 }
 .video .text h2 {
   text-transform: uppercase;
   margin: 0;
-  font-weight: normal
+  font-weight: normal;
 }
 .video .text p {
-  margin: 30px 0
+  margin: 30px 0;
 }
 .video .text button {
   background-color: #000;
   padding: 10px 25px;
   border: none;
-  color: #FFF;
-  text-transform: uppercase
+  color: #fff;
+  text-transform: uppercase;
 }
 /* End Super Awesome Video */
 /* Start About Us */
@@ -539,12 +539,12 @@ header nav form button i {
   margin-top: -120px;
   max-width: 100%;
   position: relative;
-  bottom: -120px
+  bottom: -120px;
 }
 @media (max-width: 767px) {
   .about img {
     bottom: -60px;
-    margin-top: -60px
+    margin-top: -60px;
   }
 }
 .about .stats {
@@ -571,36 +571,36 @@ header nav form button i {
   flex-wrap: wrap;
   justify-content: space-between;
   text-align: center;
-  background-color:rgb(15 116 143 / 70%);
+  background-color: rgb(15 116 143 / 70%);
   position: relative;
   z-index: 2;
 }
 .about .stat-box {
-  color: #FFF;
+  color: #fff;
   padding: 30px 15px;
 }
 .about .stat-box i {
   background-color: #000;
   padding: 10px;
   border-radius: 50%;
-  font-size: 20px
+  font-size: 20px;
 }
 .about .stat-box p {
   margin: 30px 0;
   font-size: 35px;
-  font-weight: bold
+  font-weight: bold;
 }
 .about .stat-box span {
-  font-size: 15px
+  font-size: 15px;
 }
-@media (min-width: 768px) and (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px) {
   .about .stat-box {
-    width: 50%
+    width: 50%;
   }
 }
 @media (max-width: 767px) {
   .about .stat-box {
-    width: 100%
+    width: 100%;
   }
 }
 /* End About Us */
@@ -614,32 +614,32 @@ header nav form button i {
     display: flex;
   }
   .opinion .testimonials {
-    margin-right: 10%
+    margin-right: 10%;
   }
   .opinion .testimonials,
   .opinion .skills {
-    flex: 1
+    flex: 1;
   }
 }
 @media (max-width: 991px) {
   .opinion .skills {
-    margin-top: 100px
+    margin-top: 100px;
   }
 }
-.opinion .testimonials h3 ,
+.opinion .testimonials h3,
 .opinion .testimonials > p {
   text-align: center;
 }
 .opinion .testimonials h3 {
   text-transform: uppercase;
   text-align: center;
-  font-weight: normal
+  font-weight: normal;
 }
 .opinion .testimonials p {
   color: #676767;
   line-height: 1.8;
   font-size: 16px;
-  margin: 15px 0
+  margin: 15px 0;
 }
 .opinion .testi-container {
   padding-top: var(--main-padding);
@@ -652,18 +652,18 @@ header nav form button i {
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  margin-right: 35px
+  margin-right: 35px;
 }
 .opinion .testi-box .content {
   flex: 1;
   position: relative;
-  border-bottom: 1px solid #CCC;
+  border-bottom: 1px solid #ccc;
   padding-bottom: 20px;
   margin-bottom: 15px;
 }
 @media (max-width: 767px) {
   .opinion .testi-container {
-    padding-top: 10px
+    padding-top: 10px;
   }
   .opinion .testi-box {
     flex-direction: column;
@@ -674,14 +674,14 @@ header nav form button i {
     text-align: center;
   }
   .opinion .testi-box img {
-    margin: 0
+    margin: 0;
   }
 }
 .opinion .testi-box .content span {
   position: absolute;
   bottom: 10px;
   right: 0;
-  font-size: 15px
+  font-size: 15px;
 }
 .opinion .testi-container ul {
   position: absolute;
@@ -694,7 +694,7 @@ header nav form button i {
   width: 15px;
   height: 15px;
   border-radius: 50%;
-  border: 1px solid #CCC;
+  border: 1px solid #ccc;
   margin-right: 8px;
   cursor: pointer;
 }
@@ -702,58 +702,58 @@ header nav form button i {
   background-color: var(--main-color);
   border-color: transparent;
 }
-  /* Skills Progress Bar */
-.opinion .skills h3 ,
+/* Skills Progress Bar */
+.opinion .skills h3,
 .opinion .skills p {
   text-align: center;
 }
 .opinion .skills h3 {
   text-transform: uppercase;
   text-align: center;
-  font-weight: normal
+  font-weight: normal;
 }
 .opinion .skills p {
   color: #676767;
   line-height: 1.8;
   font-size: 16px;
-  margin: 15px 0
+  margin: 15px 0;
 }
 .opinion .progress-container {
   padding-top: var(--main-padding);
 }
 .opinion .progress-container .progress-box {
   position: relative;
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 .opinion .progress-box h4 {
   margin-bottom: 8px;
   text-transform: uppercase;
-  font-weight: normal
+  font-weight: normal;
 }
 .opinion .progress-box .progress-bar {
   height: 30px;
-  background-color: #EEE;
+  background-color: #eee;
 }
 .opinion .progress-bar span {
   height: 100%;
   background-color: var(--main-color);
   display: block;
-  position: relative
+  position: relative;
 }
 .opinion .progress-bar span::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -15px;
   right: -8px;
   border-width: 8px;
   border-style: solid;
-  border-color: #000 transparent transparent transparent
+  border-color: #000 transparent transparent transparent;
 }
 .opinion .progress-bar span::after {
   content: attr(data-width);
   position: absolute;
   background-color: black;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   line-height: 25px;
   border-radius: 5px;
@@ -763,16 +763,16 @@ header nav form button i {
   right: -25px;
 }
 .opinion .progress-box:nth-of-type(1) span {
-  width: 90%
+  width: 90%;
 }
 .opinion .progress-box:nth-of-type(2) span {
-  width: 85%
+  width: 85%;
 }
-.opinion .progress-box:nth-of-type(3)  span{
-  width: 80%
+.opinion .progress-box:nth-of-type(3) span {
+  width: 80%;
 }
 .opinion .progress-box:nth-of-type(4) span {
-  width: 90%
+  width: 90%;
 }
 /* End Opinion */
 
@@ -785,17 +785,17 @@ header nav form button i {
   background-position: 50%;
   height: 300px;
   text-align: center;
-  color: #FFF;
+  color: #fff;
   position: relative;
 }
 .quote::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: rgba(0, 0, 0, 0.7);
   top: 0;
   left: 0;
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 .quote .container {
   position: relative;
@@ -806,11 +806,125 @@ header nav form button i {
 .quote q {
   font-size: 35px;
   display: block;
-  margin-bottom: 30px
+  margin-bottom: 30px;
 }
 @media (max-width: 767px) {
   .quote q {
-    font-size: 30px
+    font-size: 30px;
   }
 }
 /* End Quote */
+
+/* Start Pricing */
+.pricing {
+  padding-bottom: var(--main-padding);
+}
+.pricing .container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-top: 2.25rem
+}
+.pricing .box {
+  background-color: #eee;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+@media (min-width: 992px) {
+  /* .pricing .container {
+
+  }
+  .pricing .box {
+    transform: translate3d(0, 0, -75px);
+  }
+  .pricing .box.premium {
+    z-index: 2;
+    transform: translate3d(0, 0, 25px);
+  } */
+}
+.pricing .box .intro {
+  height: 80px;
+  color: #fff;
+  line-height: 80px;
+  margin-bottom: 1.75rem;
+  font-size: 20px;
+  position: relative;
+  text-align: center;
+}
+.pricing .box .intro::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 10px);
+  border-style: solid;
+  border-width: 10px;
+  border-color: #000 transparent transparent transparent;
+}
+.pricing .basic .intro {
+  background-color: #009688;
+}
+.pricing .basic .intro::after {
+  border-top-color: #009688;
+}
+.pricing .standard .intro {
+  background-color: #ff5722;
+}
+.pricing .standard .intro::after {
+  border-top-color: #ff5722;
+}
+.pricing .premium .intro {
+  background-color: var(--main-color);
+}
+.pricing .premium .intro::after {
+  border-top-color: var(--main-color);
+}
+.pricing ul {
+  width: 80%;
+  margin: 20px auto;
+}
+.pricing ul li {
+  font-size: 19px;
+  padding: 15px 0;
+}
+.pricing ul li i {
+  margin-right: 1.5rem;
+}
+.pricing ul li i.right {
+  color: #009688;
+}
+.pricing ul li i.wrong {
+  color: #e91e63;
+}
+.pricing .price {
+  font-size: 40px;
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
+.pricing .price::before {
+  content: "$";
+  position: absolute;
+  top: 15px;
+  margin-left: -25px;
+  font-size: 20px;
+}
+.pricing .price::after {
+  content: "/Mo";
+  position: absolute;
+  bottom: 20px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+.pricing button {
+  display: block;
+  padding: 10px 25px;
+  background-color: #9e9e9e;
+  color: #fff;
+  border: none;
+  width: 100px;
+  margin: 17px auto;
+  border-radius: 50px;
+  cursor: pointer;
+}
+/* End Pricing */
