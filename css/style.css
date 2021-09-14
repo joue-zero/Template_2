@@ -819,13 +819,13 @@ header nav form button i {
 .pricing {
   padding-bottom: var(--main-padding);
   position: relative;
-  margin-bottom: 190px
+  margin-bottom: 190px;
 }
 .pricing .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 1rem;
-  margin-top: 2.25rem
+  margin-top: 2.25rem;
 }
 .pricing .box {
   background-color: #eee;
@@ -933,10 +933,10 @@ header nav form button i {
 .pricing .contact-us h3 {
   font-weight: normal;
   color: #2d2d2d;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .pricing .contact-us a {
-  color: #FFF;
+  color: #fff;
   background-color: var(--main-color);
   padding: 15px 25px;
   margin: 30px auto 0;
@@ -973,7 +973,7 @@ header nav form button i {
   margin: 10px auto 50px;
   max-width: 95%;
 }
-.email form ,
+.email form,
 .email .container {
   position: relative;
   z-index: 2;
@@ -988,13 +988,13 @@ header nav form button i {
 .email form input[type="email"] {
   width: 100%;
   padding: 10px 5px 10px 50px;
-  border: 1px solid #FFFF;
+  border: 1px solid #ffff;
   background-color: transparent;
   color: #2196f3;
   height: 60px;
 }
 .email form input::placeholder {
-  color: #FFF;
+  color: #fff;
   font-size: 18px;
   margin-left: 20px;
 }
@@ -1004,22 +1004,22 @@ header nav form button i {
   top: 0;
   height: 100%;
   background-color: var(--main-color);
-  color: #FFF;
-  border: 1px solid #FFF;
+  color: #fff;
+  border: 1px solid #fff;
   border-left-color: transparent;
   padding: 10px 20px;
   text-transform: uppercase;
 }
 .email form input:focus,
 .email form button:focus {
-  outline: 0
+  outline: 0;
 }
 
 /* End Email */
 
 /* Start Contact Us */
 .contact {
-  padding: var(--main-padding) 0
+  padding: var(--main-padding) 0;
 }
 .contact .container {
   display: flex;
@@ -1027,7 +1027,7 @@ header nav form button i {
 }
 .contact .container form {
   flex: 2;
-  width: 100%
+  width: 100%;
 }
 .contact .container form input {
   display: block;
@@ -1036,26 +1036,26 @@ header nav form button i {
   width: 100%;
   max-width: 100%;
   padding: 10px 10px 10px 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .contact .container form textarea {
   display: block;
   height: 150px;
-  border: 1px solid #666;
+  border: 1px solid #757575;
   width: 100%;
   padding: 10px 10px 10px 20px;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .contact .container form textarea:focus,
 .contact .container form button:focus,
 .contact .container form input:focus {
-  outline: 0
+  outline: 0;
 }
 .contact .container form button {
   background-color: var(--main-color);
   border: none;
   padding: 10px 30px;
-  color: #FFF;
+  color: #fff;
   margin-left: auto;
   display: block;
 }
@@ -1075,11 +1075,11 @@ header nav form button i {
   }
   .contact .info {
     margin: 0 0 2rem 0;
-    text-align: center 
+    text-align: center;
   }
 }
 .contact .info .box {
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .contact .info h3 {
   text-transform: uppercase;
@@ -1091,10 +1091,9 @@ header nav form button i {
   color: #4e4e4e;
   margin-bottom: 5px;
   display: block;
-  line-height: 2
+  line-height: 2;
 }
 /* End Contact Us */
-
 
 /* Start Footer */
 .footer {
@@ -1121,10 +1120,9 @@ header nav form button i {
   z-index: 2;
 }
 .footer .img {
-  
 }
 .footer .box {
-  margin: 40px 0
+  margin: 40px 0;
 }
 .footer .box h3 {
   position: relative;
@@ -1136,14 +1134,14 @@ header nav form button i {
   font-weight: normal;
 }
 .footer .box h3::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 1px;
-  background-color: #FFF
+  background-color: #fff;
 }
-.footer .box ul { 
+.footer .box ul {
   display: flex;
   justify-content: space-between;
   margin: 10px auto;
@@ -1153,12 +1151,11 @@ header nav form button i {
   margin-right: 10px;
 }
 .footer .box ul li a {
-  color: #FFF;
+  color: #fff;
 }
-.footer  p:last-child {
-  
+.footer p:last-child {
 }
-.footer  p:last-child > span {
-  color: var(--main-color)
+.footer p:last-child > span {
+  color: var(--main-color);
 }
 /* End Footer */
